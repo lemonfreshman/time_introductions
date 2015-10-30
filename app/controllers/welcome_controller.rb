@@ -4,5 +4,6 @@ class WelcomeController < ApplicationController
   end
 
   def time
+    @time = Time.new.utc
   end
 end
